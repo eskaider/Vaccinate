@@ -7,10 +7,11 @@
 	margin:0px;
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
+	color: #305cad;
 }
 /* Nav  */
 
-a{
+.nav-link{
 	text-decoration: none;
 	text-align: center;
 	color: gray;
@@ -79,17 +80,17 @@ button:active {
 
 /* Main Pagina */
 
-main{
+.main1{
 	margin-left: 10em;
 }
 
-main h1{
+.main1 h1{
 	margin-top: 3.5em;
 	font-size: 3em;
 	color: #305cad;
 }
 
-main p{
+.main1 p{
 	margin-top: 15px;
 	font-size: 15px;
 	color: #616b7c;
@@ -184,7 +185,7 @@ main p{
 	justify-content: space-around;
 }
 
-.patrocinadores, img{
+.patrocinadores, .iconos{
 	height: 60px;
 	opacity: .4;
 }
@@ -223,9 +224,147 @@ span p{
 	font-size: 15px;
 }
 
+/* Segundo Main */
 
+.main2{
+	margin-top: 10em;
+}
 
+.sidebar2{
+	float: left;
+	width: 45em;
+}
 
+.parrafo h2{
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.parrafo p{
+	font-size: 14px;
+	color: #616b7c;
+	text-align: justify;
+}
+
+li{
+	font-weight: bold;
+}
+
+li p{
+	color: #616b7c;
+	font-size: 10px;
+}
+
+/* Main de Emergencia */
+
+.emergencia{
+	margin-top: 10em;
+}
+
+.sidebar3{
+	float: right;
+}
+
+.content2 h2{
+	margin-left: 3em;
+	font-weight: bold;
+	font-size: 38px;
+}
+
+.content2 p{
+	margin-left: 8em;
+	font-size: 14px;
+	color: #616b7c;
+	text-align: justify;
+}
+
+.aicon{
+	float: left;
+	width: 2em;
+	height: 2em;
+}
+.contacto{
+	display: flex;
+	justify-content: space-around;
+	text-align: end;
+	margin: 2em;
+	padding: 1.2em;
+}
+
+.contacto span{
+	align-items: baseline;
+	font-weight: bold;
+}
+
+.contacto p{
+	align-items: baseline;
+	font-size: 8px;
+	color: #616b7c;
+}
+
+.contact{
+	display: flex;
+	justify-content: space-around;
+	margin: 1.8em;
+	padding: 1.2em;
+}
+
+.contact span{
+	align-items: baseline;
+	font-weight: bold;
+}
+
+.contact p{
+	align-items: baseline;
+	font-size: 8px;
+	color: #616b7c;
+}
+
+/* Footer */
+
+footer{
+	margin: 1.2em;
+}
+
+.vaccination{
+	display: flex;
+	flex-direction: column;
+}
+
+.vaccination p{
+	color: #616b7c;
+}
+
+.futer{
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+}
+
+.futer li{
+	list-style: none;
+}
+
+footer a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #616b7c;
+}
+
+.rights{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 12px;
+}
+p{
+	color: #616b7c;
+}
+.terms{
+	display: flex;
+	justify-content: flex-end;
+	color: #616b7c;
+	font-size: 12px;
+}
 
 
 
